@@ -6,17 +6,17 @@
     margin: 0 0 2em 0;
     list-style-type: none;
     padding: 0;
-    width: 15em;
+    width: 20em;
 }
 .heroList li {
     cursor: pointer;
     position: relative;
     left: 0;
     background-color: #EEE;
-    margin: .75em;
+    margin: .5em;
     padding: .3em 0;
-    height: 2.6em;
-    border-radius: 8px;
+    height: 1.6em;
+    border-radius: 4px;
 }
 .heroList li.selectedHero:hover {
     color: white;
@@ -24,7 +24,7 @@
 .heroList li:hover {
     color: #607D8B;
     background-color: #EEE;
-    left: .3em;
+    left: .1em;
 }
 .heroList .text {
     position: relative;
@@ -34,13 +34,13 @@
     display: inline-block;
     font-size: small;
     color: white;
-    padding: 0.8em 0.7em 0 0.7em;
+    padding: 0.85em 1em 0 1em;
     background-color: #607D8B;
     line-height: 1em;
     position: relative;
-    left: -1px;
-    top: -4px;
-    height: 3.1em;
+    left: -0.5px;
+    top: -4.5px;
+    height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
 }
