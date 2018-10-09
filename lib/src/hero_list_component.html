@@ -1,7 +1,3 @@
-<h1>{{title}}</h1>
-<h2>Heroes</h2>
-<tr>
-    <td>
 <ul class="heroList">
     <li *ngFor="let hero of heroList"
         [class.selectedHero]="hero === selectedHero"
@@ -9,8 +5,6 @@
         <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
 </ul>
-    </td>
-    <td style="width: 100px"></td>
-    <td><hero-selector [myHero]="selectedHero"></hero-selector></td>
-</tr>
+<hero-selector [myHero]="selectedHero"></hero-selector>
+
 
